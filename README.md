@@ -1,0 +1,1 @@
+This is a fake Google Homepage to pratice my skills as a developer using HTML and CSS.
