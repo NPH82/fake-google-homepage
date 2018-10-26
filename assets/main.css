@@ -1,4 +1,9 @@
 
+ul {
+    padding-top: 10px;
+    text-align: left;
+}
+
 li {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -28,6 +33,74 @@ footer {
     background-color: rgb(237, 237, 237);
     width: 100%;
     display: inline-block;
-    padding: 12px;
+    padding: .3em;
     border-top: 3px, solid, rgb(225, 225, 225)
+}
+ .bell {
+  font-size: .7rem;
+  background-color: gray;
+  padding: .4em;
+  border-radius: 50%;
+  z-index: 2;
+  color: white;
+  text-align: center;
+}
+
+.user {
+  color: rgb(10, 99, 233);
+}
+
+.squares {
+    color: gray;
+}
+
+main {
+    padding-top: 10em;
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    letter-spacing: 4px;
+}
+
+.searchArea {
+    height: 35px;
+    border: .5px solid rgb(225, 225, 225);
+    border-bottom: 2px solid rgb(225, 225, 225);
+    width: 400px;
+    line-height: 2;
+}
+
+.right{
+    float: right;
+}
+
+.bigG {
+    color: rgb(255, 251, 7);
+}
+
+.o {
+    color: blue;
+}
+
+.secondO {
+    color: red;
+}
+
+.lowerG {
+    color: rgb(45, 194, 45);
+}
+
+.l {
+    color: rgb(255, 251, 7);
+}
+
+.e {
+    color: blue;
 }
