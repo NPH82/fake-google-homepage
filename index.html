@@ -9,33 +9,35 @@
   <title>Fake Google</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li class="left-nav">About</li>
-            <li class="left-nav">Store</li>
-            <li class="right">Gmail</li>
-            <li class="right">Images</li>
-            <li class="right"><span class="squares"><i class="fas fa-th fa-lg"></i></span></li>
-            <li class="right"><span class="bell"><i class="fas fa-bell fa-xs"></i></span></li>
-            <li class="right"><span class="user"><i class="fas fa-user-circle fa-2x"></i></span></li>
-        </ul>
-    </nav>
-    <main>
-        <h1><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></h1>
-        <form>
-            <input class="searchArea" type="text" name="search" autofocus><br>
-            <input class="button" type="submit" name="submit" value="Google Search">
-            <input class=" button" type="submit" name="lucky" value="I'm Feeling Lucky">
-        </form>
-    </main>
-    <footer>
-        <ul>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
-    </footer>
+    <div class="wrapper">
+        <nav class="navbar">
+            <ul>
+                <li class="left">About</li>
+                <li class="left">Store</li>
+                <li class="right">Gmail</li>
+                <li class="right">Images</li>
+                <li class="right"><span class="squares"><i class="fas fa-th fa-lg"></i></span></li>
+                <li class="right"><span class="bell"><i class="fas fa-bell fa-xs"></i></span></li>
+                <li class="right"><span class="user"><i class="fas fa-user-circle fa-2x"></i></span></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <h1><img class="google_img" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></h1>
+            <form>
+                <input class="searchArea" type="text" name="search" autofocus><br>
+                <input class="button" type="submit" name="submit" value="Google Search">
+                <input class=" button" type="submit" name="lucky" value="I'm Feeling Lucky">
+            </form>
+        </main>
+        <footer class="footer">
+            <ul>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li class="right">Privacy</li>
+                <li class="right">Terms</li>
+                <li class="right">Settings</li>
+            </ul>
+        </footer>
+    </div>
 </body>
 </html>
