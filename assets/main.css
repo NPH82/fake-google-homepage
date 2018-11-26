@@ -15,7 +15,7 @@ Template for CSS Grid Layout */
 .content {
     grid-column: col-start 3 / span 4;
     grid-row: 2;
-    padding-top: 35%;
+    padding-top: 15%;
     clear: both;
     text-align: center;
     display: flex;
@@ -81,8 +81,7 @@ ul li:hover {
 
 /* Styling for content section of HTML */
 img {
-    height: 8.5vh;
-    width: 25vw;
+    width: 40%;
 }
 
 .searchArea {
